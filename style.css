@@ -65,10 +65,14 @@ header.masthead {
 }
 .despre {
     padding: 150px;
+    background-color: #f6b93b;
 }
 #services {
     padding: 150px;
 }
 #contact {
     padding: 150px;
+}
+.bg-primary {
+  background-color: #f6b93b! important;
 }
