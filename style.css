@@ -2,6 +2,42 @@ html {
     width: 100%;
     height: 100%;
   }
+  /* Stilizare cu font Indie Flower */
+  body {
+    font-family: 'Indie Flower', cursive;
+  }
+  .navbar {
+    font-size: 24px;
+    font-weight: bold;
+      }
+  .navbar-brand {
+    font-size: 33px;
+    font-weight: bold;
+  }
+  
+ 
+  .text-uppercase {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .contact-details {
+    font-size:20px;
+  }
+
+  /* //Stlizare cu font Indie Flower */
+  .btn-primary {
+    background-color: #f6b93b;
+   border: transparent;
+  }
+  .btn-primary:hover{
+    background-color: #8e8479;
+  }
+  .btn-light:hover {
+    background-color: #8e8479;
+    border:transparent;
+    color:white;
+  }
+
 header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
@@ -76,3 +112,252 @@ header.masthead {
 .bg-primary {
   background-color: #f6b93b! important;
 }
+/* Typing effect */
+.typewriter {
+  overflow: hidden; 
+  white-space: nowrap; 
+  margin:0 auto; 
+ height: 45px;
+  letter-spacing: .15em; 
+
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .75s step-end infinite;
+   }
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+.typewriter{
+  animation-iteration-count: infinite;
+}
+/* //Typing effect */
+
+.img-fluid {
+  height: 320px;
+}
+.p-0{
+  background-color: #f6b93b;
+}
+/* Portofolio */
+.portfolio-box {
+  position: relative;
+  display: block;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.portfolio-box .portfolio-box-caption {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: #f6b93b;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  padding: 0 15px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  font-size: 18px;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
+
+.portfolio-box:focus {
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    font-size: 16px;
+  }
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 22px;
+  }
+}
+
+/* //Portofolio */
+
+
+/* litere */
+
+div:hover span {
+  animation: 1s letters forwards;
+  animation-iteration-count: infinite;
+}
+
+#let-1 {
+  animation-delay: .1s;
+}
+
+#let-2 {
+  animation-delay: .2s;
+}
+
+#let-4 {
+  animation-delay: .3s;
+}
+
+#let-5 {
+  animation-delay: .4s;
+}
+
+#let-6 {
+  animation-delay: .5s;
+}
+
+#let-7 {
+  animation-delay: .6s;
+}
+
+#let-8 {
+  animation-delay: .7s;
+}
+
+#let-9 {
+  animation-delay: .8s;
+}
+
+#let-10 {
+  animation-delay: .9s;
+}
+
+#let-11 {
+  animation-delay: .10s;
+}
+
+#let-12 {
+  animation-delay: .11s;
+}
+
+#let-13 {
+  animation-delay: .12s;
+}
+
+#let-14 {
+  animation-delay: .10s;
+}
+
+#let-15 {
+  animation-delay: .9s;
+}
+
+#let-16 {
+  animation-delay: .12s;
+}
+
+#let-17 {
+  animation-delay: .13s;
+}
+
+#let-18 {
+  animation-delay: .1s;
+}
+
+#let-19 {
+  animation-delay: .14s;
+}
+#let-20 {
+  animation-delay: .19s;
+}
+#let-21 {
+  animation-delay: .1s;
+}
+#let-22 {
+  animation-delay: .21s;
+}
+#let-23 {
+  animation-delay: .16s;
+}
+#let-24 {
+  animation-delay: .23s;
+}
+#let-25 {
+  animation-delay: .1s;
+}
+#let-26 {
+  animation-delay: .25s;
+}
+#let-27 {
+  animation-delay: .26s;
+}
+#let-28 {
+  animation-delay: .27s;
+}
+#let-29 {
+  animation-delay: .1s;
+}
+#let-30 {
+  animation-delay: .29s;
+}
+#let-31 {
+  animation-delay: .30s;
+}
+#let-32 {
+  animation-delay: .31s;
+}
+#let-33 {
+  animation-delay: .1s;
+}
+#let-34 {
+  animation-delay: .32s;
+}
+#let-35 {
+  animation-delay: .33s;
+}
+#let-36 {
+  animation-delay: .1s;
+}
+#let-37 {
+  animation-delay: .34s;
+}
+#let-38 {
+  animation-delay: .2s;
+}
+
+@-webkit-keyframes letters {
+  from, to {
+      font-size: 40px;
+  }
+  50% {
+      font-size: 56px;
+  }
+}
+@keyframes letters {
+  from, to {
+      font-size: 40px;
+  }
+  50% {
+      font-size: 56px;
+  }
+}
+
+
